@@ -36,7 +36,7 @@ const hastebins = require('hastebin-gen');
 const getYoutubeID = require('get-youtube-id');
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
 const pretty = require("pretty-ms");
-client.login(process.env.BOT_TOKEN);
+client.login("NzEyNDU2OTMxNjE2MjI3Mzk5.XwHhow.TNMsGY41SbNvxZSNJfLcJRt0HPE");
 const queue = new Map();
 var table = require('table').table
 const Discord = require('discord.js');
@@ -50,8 +50,8 @@ client.on('ready', () => {
 
 client.on('ready',async () => {
 console.log("Starting..");
-let g = client.guilds.get(""); // id server
-let c = g.channels.get("");// id channel
+let g = client.guilds.get("699404233182675036"); // id server
+let c = g.channels.get("749735838321213480");// id channel
 if(c.type === 'voice') {
 c.join();
 setInterval(() => {
